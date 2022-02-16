@@ -1,12 +1,9 @@
 # IrisControls4
 Deployed releases of the IrisControls4 application
 
-# IrisControls_source
-Iris Controls App Source Code
+# Release Notes:
 
-Release Notes:
-
-IrisControls4: 080222<br>
+## IrisControls4: 080222<br>
 
 RELEASE_NOTES<br>
 	- Fixed bug where some handshake rejection cases were not exiting the setup method.<br>
@@ -27,7 +24,7 @@ RELEASE_NOTES<br>
 	- Added symbol parsing for the copywrite symbol.<br>
 =======================================================================<br>
 
-IrisControls4: 061221<br>
+## IrisControls4: 061221<br>
 
 RELEASE_NOTES<br>
 	- Update to support IC4 Library v2.0.<br>
@@ -36,7 +33,7 @@ RELEASE_NOTES<br>
 	- Fixed bug where handshake was failing repeatedly.<br>
 =======================================================================<br>
 
-IrisControls4: 211021<br>
+## IrisControls4: 211021<br>
 
 RELEASE_NOTES<br>
 	- Fixed bug where changing the default colour of a FlexData's units wasn't working.<br>
@@ -44,7 +41,7 @@ RELEASE_NOTES<br>
 	- Fixed bug where requesting a Dataset without an assigned Flexplot to hide was causing a crash.<br>
 =======================================================================<br>
 
-IrisControls4: 210929<br>
+## IrisControls4: 210929<br>
 
 RELEASE_NOTES<br>
 	- Fixed bug where configuring FlexLabels was not working.<br>
@@ -56,7 +53,7 @@ RELEASE_NOTES<br>
 	- Added colour change API for FlexPlot gridlines.<br>
 =======================================================================<br>
 
-IrisControls4: 210914<br>
+## IrisControls4: 210914<br>
 
 RELEASE_NOTES<br>
 	- Changed the help command for the local parser to \"help\".<br>
@@ -70,7 +67,7 @@ RELEASE_NOTES<br>
 =======================================================================<br>
 
 
-IrisControls4: 210828<br>
+## IrisControls4: 210828<br>
 
 RELEASE_NOTES<br>
 	- Added numerical system config to FlexSliders.<br>
@@ -84,7 +81,7 @@ RELEASE_NOTES<br>
 	- FlexPlot axes labels no longer recolour themselves to match their respective dataset.<br>
 =======================================================================<br>
 
-IrisControls4: 210818<br>
+## IrisControls4: 210818<br>
 
 RELEASE_NOTES<br>
 	- FPS plot in console now has transparent background.<br>
@@ -97,17 +94,17 @@ RELEASE_NOTES<br>
 	- Fixed bug where the DIGITS_4 config option for FlexSliders wasn't working.<br>
 	- FlexDatas may now be configured to display their values in binary or hexadecimal format. While in either of these modes, users may input values in decimal, binary, or hex by using notation (e.g. '0b123' or '0x123ABC').<br>
 	- Fixed bug where non-integer user entered values were being integer rounded before transmission to the device (e.g. 0.5 was being sent as 0).<br>
-	
 =======================================================================<br>
-IrisControls4: 210806<br>
+
+## IrisControls4: 210806<br>
 
 RELEASE_NOTES<br>
 	- Default colours are now reset upon each new successful serial connection.<br>
 	- Devices can now command all default colours to be reset remotely.<br>
 	- Setting default colours is now guaranteed to be processed in the same order the serial command to do so is received.<br>
-
 =======================================================================<br>
-IrisControls4: 210804
+
+## IrisControls4: 210804
 
 RELEASE_NOTES<br>
 	- Added ability to set colours for disabled state of FlexButtons.<br>
@@ -121,24 +118,24 @@ RELEASE_NOTES<br>
 	- Increased size of value field in FlexSliders and FlexDatas to fit six digits and a decimal (up from just 6 digits).<br>
 
 =======================================================================<br>
-IrisControls4: 210726
+## IrisControls4: 210726
 
 RELEASE_NOTES <br>
 	- Added ability to set colours for disabled state of FlexButtons.<br>
 	- Fixed bug where changing checked/unchecked or enabled/disabled states of FlexButtons was not causing the correct colours to be present.<br>
 	- Config flag added FlexLabels that sets text alignment.<br>
 	- Output Flex Sliders and FlexDatas no longer report new values back to the device.<br>
-
 =======================================================================<br>
-IrisControls4: 210725
+
+## IrisControls4: 210725
 
 RELEASE_NOTES<br>
 	- Setting default colours is now live. See wiki for details.<br>
 	- Adjusted scaling of the traffic and FPS plot so they aren't drawn on top of each other as often.<br>
 	- Changed the way parsing strings is handled to allow users to include whitespace in element names.<br>
-
 =======================================================================<br>
-IrisControls4: 210625
+
+## IrisControls4: 210625
 
 RELEASE_NOTES<br>
 	- Added hover_background_normal and hover_background_checked colours to colour change API.<br>
@@ -147,7 +144,8 @@ RELEASE_NOTES<br>
 
 
 =======================================================================<br>
-IrisControls4: 210621
+
+## IrisControls4: 210621
 
 RELEASE_NOTES<br>
 	- Added a settings dialog that allows users to configure the baudrate and console output size limit, load config files, and set default settings.<br>
