@@ -1,0 +1,16 @@
+generated_files/**
+iconengines/**
+IrisControls.tlog/**
+logs/**
+qmake/**
+rcc/**
+translations/**
+uic/**
+
+vc_redist.x64.exe
+IrisControls.exe.recipe
+IrisControls.Build.CppClean.log
+IrisControls.log
+IrisControls.vcxproj.FileListAbsolute.txt
+qt_work.log
+
