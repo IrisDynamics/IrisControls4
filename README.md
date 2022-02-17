@@ -3,6 +3,13 @@ Deployed releases of the IrisControls4 application
 
 # Release Notes:
 
+## IrisControls4: 140222<br>
+
+RELEASE_NOTES<br>
+	- Removed runtime check for float length in float parsing.<br>
+	- Fixed bug causing crash on disconnect for some GUIs.<br>
+=======================================================================<br>
+
 ## IrisControls4: 080222<br>
 
 RELEASE_NOTES<br>
