@@ -1,0 +1,18 @@
+This file contains commands used to setup the 6-DoF platform.
+
+START
+g_prime 0
+g_dof 0 50
+g_dof 1 -50
+g_dof 2 250
+g_dof 3 1700
+g_dof 4 -1700
+g_dof 5 -2000
+m_ts 0 2500
+m_ts 1 2500
+m_ts 2 5000
+m_ts 3 250
+m_ts 4 250
+m_ts 5 4000
+g_wo 3 4000
+g_wo 4 -4000
