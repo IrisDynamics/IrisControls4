@@ -3,6 +3,21 @@ Deployed releases of the IrisControls4 application
 
 # Release Notes:
 
+## IrisControls4: 220317<br>
+
+RELEASE_NOTES
+	- Clicking on an input FlexSlider or FlexData's label will now bring focus to the value field.<br>
+	- While editing a value field, the colours of the field invert. When a value has been accepted and transmitted to the device the colours revert to normal.<br>
+	- While editing a value field, an ESC keypress will reject the input and return the value to its last accepted state. The focus on the value field is cleared.<br>
+	- While editing a value field, an ENTER/RETURN keypress will accept the input. Focus on the value field is retained.<br>
+	- Changed revision format to yymmdd from ddmmyy to match other Iris publications.<br>
+	- Symbol parsing for Greek letter mu added.<br>
+	- Added support for multiple instance logging.<br>
+	- Settings are now stored in a different container for each instance.<br>
+	- FlexElement update messages now respect half duplex logic for all connection types.<br>
+	- Backend efficiency changes.<br>
+=======================================================================<br>
+
 ## IrisControls4: 140222<br>
 
 RELEASE_NOTES<br>
