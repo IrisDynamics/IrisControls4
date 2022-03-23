@@ -1,0 +1,9 @@
+This is a header that can contain anything... 
+the function will start parsing when it sees "START".
+
+START
+Hello world!
+Test Line 1
+#wait(2000)
+Test Line 2
+Test Line 3
