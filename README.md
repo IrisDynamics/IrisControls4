@@ -3,9 +3,24 @@ Deployed releases of the IrisControls4 application
 
 # Release Notes:
 
+## IrisControls4: 220420<br>
+
+
+RELEASE_NOTES<br>
+	- Support for IC4_v2.3 serial API.<br>
+	- Support for displaying unsigned decimal values on FlexSliders.<br>
+	- Support for FlexSlider value fields of 10, 12, 14, 18, 22, 26, 30, and 34 digits.<br>
+	- Implemented GUI Pages to improve serial connection efficiency when showing or hiding large numbers of elements.<br>
+	- Added support for values larger than 2^32 in FlexSlider and FlexDatas.<br>
+	- Improved COM menu performance.<br>
+	- FlexDatas when disables now clear focus.<br>
+	- Multiple value updates for the same element are no longer all sent to the device, only the most recent update is.<br>
+	- Improved support for higher resolution displays when plotting data.<br>
+=======================================================================<br>
+
 ## IrisControls4: 220317<br>
 
-RELEASE_NOTES
+RELEASE_NOTES<br>
 	- Clicking on an input FlexSlider or FlexData's label will now bring focus to the value field.<br>
 	- While editing a value field, the colours of the field invert. When a value has been accepted and transmitted to the device the colours revert to normal.<br>
 	- While editing a value field, an ESC keypress will reject the input and return the value to its last accepted state. The focus on the value field is cleared.<br>
