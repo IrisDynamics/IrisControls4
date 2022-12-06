@@ -28,7 +28,7 @@ RELEASE_NOTES<br>
 	- Implemented GUI Pages to improve serial connection efficiency when showing or hiding large numbers of elements.<br>
 	- Added support for values larger than 2^32 in FlexSlider and FlexDatas.<br>
 	- Improved COM menu performance.<br>
-	- FlexDatas when disables now clear focus.<br>
+	- FlexDatas when disabled now clear focus.<br>
 	- Multiple value updates for the same element are no longer all sent to the device, only the most recent update is.<br>
 	- Improved support for higher resolution displays when plotting data.<br>
 =======================================================================<br>
