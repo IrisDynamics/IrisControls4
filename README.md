@@ -3,6 +3,21 @@ Deployed releases of the IrisControls4 application
 
 # Release Notes:
 
+
+IrisControls4: 221205
+
+
+RELEASE_NOTES<br>
+	- Added support for IC4 library v2.5. and v2.6<br>
+	- Added support for alignment of label, value, and units fields of FlexDatas.<br>
+	- Added support for alignment of value field of FlexSlider.<br>
+	- Mirrored elements now display mirrored text and value alignments by default.<br>
+	- Fixed bug where plots stopped working when 32 bit time stamps overflowed.<br>
+	- Removed console error for unassigning Datasets that are already not assigned to any FlexPlot.<br>
+	- Removed console error for attempting to show a Dataset that has not been assigned to a FlexPlot.<br>
+	- Added the ohm symbol to supported symbols (\*ohm\*).<br>
+=======================================================================<br>
+
 ## IrisControls4: 220420<br>
 
 
