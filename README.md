@@ -3,6 +3,28 @@ Deployed releases of the IrisControls4 application
 
 # Release Notes:
 
+## IrisControls4 v4.4.0
+
+RELEASE_NOTES<br>
+	- Fixed bug where very high values in FlexData and FlexSlider elements were suffering from floating point rounding errors.<br>
+	- Added user feedback for invalid data entered into FlexData or FlexSlider value fields.<br>
+	- Added user feedback for invalid data entered.<br>
+	- Added feedback for a value field being edited with a value differing from the one device's stored value.<br>
+	- Added support for closing log files.<br>
+	- Added feedback sent to device when opening, closing, or writing to log files (Serial API v2.8 or higher).<br>
+	- Added support for UTC time in logs, plotting, and console messages.<br>
+	- Fixed bug where the console colours weren't resetting properly upon device disconnect.<br>
+	- Added support for nested GUI Pages.<br>
+	- Changed behaviour of resetting default colours to revert to any previously set default rather than the application's boot defaults.<br>
+	- Fixed bug where sometimes adding data to a walking plot's Dataset was not causing the plot to walk as intended.<br>
+	- Fixed bug where devices with very large timestamps were causing plotting times to be displayed incorrectly.<br>
+	- Added a dropdown menu element, FlexDropdowns.<br>
+	- Added support for serial API v3.0.<br>
+	- Fixed bug that caused buttons to sometimes appear in a 'pressed' state.<br>
+	- Added support for high DPI displays. The application now auto-resizes elements to match the scaling factor Windows applies.<br>
+        - Added tablet mode to settings dialog. This increases slider handle size to make them easier to grab on a touchscreen.<br>
+=======================================================================<br>
+
 
 ## IrisControls4: 221205
 
