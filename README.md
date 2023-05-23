@@ -6,6 +6,7 @@ Deployed releases of the IrisControls4 application
 ## IrisControls4 v4.4.0
 
 RELEASE_NOTES<br>
+	- Fixed bug where ranges on FlexSliders were being set too large and so appeared to not be responding to updates.<br>
 	- Fixed bug where very high values in FlexData and FlexSlider elements were suffering from floating point rounding errors.<br>
 	- Added user feedback for invalid data entered into FlexData or FlexSlider value fields.<br>
 	- Added user feedback for invalid data entered.<br>
