@@ -3,6 +3,11 @@ Deployed releases of the IrisControls4 application
 
 # Release Notes:
 
+##pending
+	- Added option to change the location of device created log files.<br>
+	- Added option to sort device created log files in sub-folders named for the associated COM port.<br>
+
+
 ## IrisControls4 v4.4.0
 
 RELEASE_NOTES<br>
