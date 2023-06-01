@@ -1,13 +1,21 @@
 # IrisControls4
-Deployed releases of the IrisControls4 application
+Deployed releases of the IrisControls4 application.
+
+# Installation Instructions
+	- Visit https://github.com/IrisDynamics/IrisControls4/releases and download the source code for the desired release.
+	- Run the Setup_IrisControls_vX.X.X-...exe file and allow the installer to complete setup.
+	- Launch the application from the Windows start menu or from the IrisControls directory created by the installer.
+	- Note: Saved files such as logs, datasets, and plot PDFs may be found in C:\Users\{USERNAME}\IrisControls. This save location may be changed in the application settings by clicking the gear icon.
+
 
 # Release Notes:
 
 ## pending
-	"- Added option to change the location of device created log files, datasets, and plot PDFs.<br>"\
-	"- Added option to sort save files into sub-folders named for the associated COM port.<br>"
+	- Added option to change the location of device created log files, datasets, and plot PDFs.<br>
+	- Added option to sort save files into sub-folders named for the associated COM port.<br>
 	
 =======================================================================<br>
+
 
 ## IrisControls4 v4.4.0
 
@@ -35,7 +43,6 @@ RELEASE_NOTES<br>
 
 ## IrisControls4: 221205
 
-
 RELEASE_NOTES<br>
 	- Added support for IC4 library v2.5. and v2.6<br>
 	- Added support for alignment of label, value, and units fields of FlexDatas.<br>
@@ -49,7 +56,6 @@ RELEASE_NOTES<br>
 
 ## IrisControls4: 220420<br>
 
-
 RELEASE_NOTES<br>
 	- Support for IC4_v2.3 serial API.<br>
 	- Support for displaying unsigned decimal values on FlexSliders.<br>
@@ -61,6 +67,7 @@ RELEASE_NOTES<br>
 	- Multiple value updates for the same element are no longer all sent to the device, only the most recent update is.<br>
 	- Improved support for higher resolution displays when plotting data.<br>
 =======================================================================<br>
+
 
 ## IrisControls4: 220317<br>
 
@@ -77,12 +84,14 @@ RELEASE_NOTES<br>
 	- Backend efficiency changes.<br>
 =======================================================================<br>
 
+
 ## IrisControls4: 140222<br>
 
 RELEASE_NOTES<br>
 	- Removed runtime check for float length in float parsing.<br>
 	- Fixed bug causing crash on disconnect for some GUIs.<br>
 =======================================================================<br>
+
 
 ## IrisControls4: 080222<br>
 
@@ -105,6 +114,7 @@ RELEASE_NOTES<br>
 	- Added symbol parsing for the copywrite symbol.<br>
 =======================================================================<br>
 
+
 ## IrisControls4: 061221<br>
 
 RELEASE_NOTES<br>
@@ -114,6 +124,7 @@ RELEASE_NOTES<br>
 	- Fixed bug where handshake was failing repeatedly.<br>
 =======================================================================<br>
 
+
 ## IrisControls4: 211021<br>
 
 RELEASE_NOTES<br>
@@ -121,6 +132,7 @@ RELEASE_NOTES<br>
 	- Fixed bug where setting max size of a Dataset was being ignored.<br>
 	- Fixed bug where requesting a Dataset without an assigned Flexplot to hide was causing a crash.<br>
 =======================================================================<br>
+
 
 ## IrisControls4: 210929<br>
 
@@ -133,6 +145,7 @@ RELEASE_NOTES<br>
 	- Double clicking FlexPlots toggles user mouse control.<br>
 	- Added colour change API for FlexPlot gridlines.<br>
 =======================================================================<br>
+
 
 ## IrisControls4: 210914<br>
 
@@ -177,6 +190,7 @@ RELEASE_NOTES<br>
 	- Fixed bug where non-integer user entered values were being integer rounded before transmission to the device (e.g. 0.5 was being sent as 0).<br>
 =======================================================================<br>
 
+
 ## IrisControls4: 210806<br>
 
 RELEASE_NOTES<br>
@@ -184,6 +198,7 @@ RELEASE_NOTES<br>
 	- Devices can now command all default colours to be reset remotely.<br>
 	- Setting default colours is now guaranteed to be processed in the same order the serial command to do so is received.<br>
 =======================================================================<br>
+
 
 ## IrisControls4: 210804
 
@@ -199,6 +214,8 @@ RELEASE_NOTES<br>
 	- Increased size of value field in FlexSliders and FlexDatas to fit six digits and a decimal (up from just 6 digits).<br>
 
 =======================================================================<br>
+
+
 ## IrisControls4: 210726
 
 RELEASE_NOTES <br>
@@ -208,6 +225,7 @@ RELEASE_NOTES <br>
 	- Output Flex Sliders and FlexDatas no longer report new values back to the device.<br>
 =======================================================================<br>
 
+
 ## IrisControls4: 210725
 
 RELEASE_NOTES<br>
@@ -215,6 +233,7 @@ RELEASE_NOTES<br>
 	- Adjusted scaling of the traffic and FPS plot so they aren't drawn on top of each other as often.<br>
 	- Changed the way parsing strings is handled to allow users to include whitespace in element names.<br>
 =======================================================================<br>
+
 
 ## IrisControls4: 210625
 
@@ -225,6 +244,7 @@ RELEASE_NOTES<br>
 
 
 =======================================================================<br>
+
 
 ## IrisControls4: 210621
 
