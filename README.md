@@ -3,10 +3,11 @@ Deployed releases of the IrisControls4 application
 
 # Release Notes:
 
-##pending
-	- Added option to change the location of device created log files.<br>
-	- Added option to sort device created log files in sub-folders named for the associated COM port.<br>
-
+## pending
+	"- Added option to change the location of device created log files, datasets, and plot PDFs.<br>"\
+	"- Added option to sort save files into sub-folders named for the associated COM port.<br>"
+	
+=======================================================================<br>
 
 ## IrisControls4 v4.4.0
 
@@ -28,7 +29,7 @@ RELEASE_NOTES<br>
 	- Added support for serial API v3.0.<br>
 	- Fixed bug that caused buttons to sometimes appear in a 'pressed' state.<br>
 	- Added support for high DPI displays. The application now auto-resizes elements to match the scaling factor Windows applies.<br>
-        - Added tablet mode to settings dialog. This increases slider handle size to make them easier to grab on a touchscreen.<br>
+    - Added tablet mode to settings dialog. This increases slider handle size to make them easier to grab on a touchscreen.<br>
 =======================================================================<br>
 
 
