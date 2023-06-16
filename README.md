@@ -2,7 +2,7 @@
 Deployed releases of the IrisControls4 application.
 
 # Installation Instructions
-	- Visit https://github.com/IrisDynamics/IrisControls4/releases and download the source code for the desired release.
+	- Visit https://irisdynamics.com/downloads/ and download the application **or** visit https://github.com/IrisDynamics/IrisControls4/releases and select your desired release.
 	- Run the Setup_IrisControls_vX.X.X-...exe file and allow the installer to complete setup.
 	- Launch the application from the Windows start menu or from the IrisControls directory created by the installer.
 	- Note: Saved files such as logs, datasets, and plot PDFs may be found in C:\Users\{USERNAME}\IrisControls. This save location may be changed in the application settings by clicking the gear icon.
