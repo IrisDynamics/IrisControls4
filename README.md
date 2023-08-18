@@ -10,10 +10,11 @@ Deployed releases of the IrisControls4 application.
 
 # Release Notes:
 
-## pending
+## IrisControls4 v4.4.2
+
+RELEASE_NOTES<br>
 	- Added option to change the location of device created log files, datasets, and plot PDFs.<br>
-	- Added option to sort save files into sub-folders named for the associated COM port.<br>
-	
+	- Added option to sort save files into sub-folders named for the associated COM port.<br>	
 =======================================================================<br>
 
 
