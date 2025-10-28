@@ -10,6 +10,17 @@ Deployed releases of the IrisControls4 application.
 
 # Release Notes:
 
+## IrisControls4 v4.5.5
+RELEASE_NOTES<br>
+	- Com menu on new full width row.<br>
+	- Connect button default text "Connect".<br>
+	- Updated versoning semantics in postbuild.sh.<br>
+	- Auto Reconnect default on. <br>
+	- Added scroll bars to window when display resultion is too low. <br>
+	- Updated versioning instruction in README. <br>
+	- Updated verion language in version.h to reflect semantic versioning.<br>
+=======================================================================<br>
+
 ## IrisControls4 v4.4.2
 
 RELEASE_NOTES<br>
